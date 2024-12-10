@@ -36,25 +36,25 @@ const Navbar = () => {
         >
           <a
             href="#shop"
-            className="block md:inline text-white hover:text-gray-400 transition duration-200"
+            className="block md:inline text-white hover:text-blue-400 transition duration-200"
           >
             Shop
           </a>
           <a
             href="#pages"
-            className="block md:inline text-white hover:text-gray-400 transition duration-200"
+            className="block md:inline text-white hover:text-blue-400 transition duration-200"
           >
             Produk
           </a>
           <a
             href="#blog"
-            className="block md:inline text-white hover:text-gray-400 transition duration-200"
+            className="block md:inline text-white hover:text-blue-400 transition duration-200"
           >
             About
           </a>
           <a
             href="#contact"
-            className="block md:inline text-white hover:text-gray-400 transition duration-200"
+            className="block md:inline text-white hover:text-blue-400 transition duration-200"
           >
             Contact
           </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {/* Icons */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="#cart" className="text-white hover:text-gray-400">
+          <a href="#cart" className="text-white hover:text-blue-400">
             🛒
           </a>
 
