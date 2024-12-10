@@ -2,21 +2,22 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-blue-100 relative">
+    <section className="bg-gray-800 relative">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 py-20">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-lg">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
             Ciptakan Kesan Berkelas dengan Dissert Box Berkualitas
           </h1>
-          <p className="text-gray-600 my-4">
-            Kemasan Praktis dan Menawan untuk Hidangan Penutup Anda
+          <p className="text-gray-300 my-4 text-lg">
+            Kemasan Praktis dan Menawan untuk Hidangan Penutup Anda, Tambahkan
+            Sentuhan Elegan pada Setiap Momen.
           </p>
           <a
             href="#shop"
-            className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
+            className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-400 transition duration-300"
           >
-            Discover Now
+            Temukan Sekarang
           </a>
         </div>
 
@@ -25,7 +26,7 @@ const Hero = () => {
           <img
             src="https://via.placeholder.com/400x300"
             alt="Hero Fashion"
-            className="rounded-lg shadow-lg w-full max-w-xs md:max-w-md"
+            className="rounded-lg shadow-2xl w-full max-w-xs md:max-w-md"
           />
         </div>
       </div>
