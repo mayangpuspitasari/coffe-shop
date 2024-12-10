@@ -29,10 +29,10 @@ const Navbar = () => {
             Shop
           </a>
           <a href="#pages" className="block md:inline hover:text-gray-900">
-            Pages
+            Produk
           </a>
           <a href="#blog" className="block md:inline hover:text-gray-900">
-            Blog
+            About
           </a>
           <a href="#contact" className="block md:inline hover:text-gray-900">
             Contact
