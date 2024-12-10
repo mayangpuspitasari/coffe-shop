@@ -9,9 +9,8 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
             Ciptakan Kesan Berkelas dengan Dissert Box Berkualitas
           </h1>
-          <p className="text-gray-300 my-4 text-lg">
-            Kemasan Praktis dan Menawan untuk Hidangan Penutup Anda, Tambahkan
-            Sentuhan Elegan pada Setiap Momen.
+          <p className="text-gray-300 my-4 text-sm">
+            Kemasan Praktis dan Menawan untuk Hidangan Penutup Anda
           </p>
           <a
             href="#shop"
